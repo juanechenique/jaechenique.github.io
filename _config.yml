@@ -1,6 +1,30 @@
-title: My Jekyll Site
-description: A simple site using a remote theme
-remote_theme: "jeffreytse/jekyll-theme-yat"
+title: My Awesome Site
+description: My personal website powered by Jekyll and the YAT theme
+remote_theme: jeffreytse/jekyll-theme-yat
 
 plugins:
   - jekyll-remote-theme
+
+# Optional: social links
+social:
+  name: Your Name
+  links:
+    - https://github.com/yourusername
+    - https://linkedin.com/in/yourusername
+
+# Optional: navbar links
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /posts/
+
+# Optional: footer
+footer:
+  since: 2025
+  license: MIT
+
+# Optional: Google Analytics
+# google_analytics: UA-XXXXXXXXX-X
