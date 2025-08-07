@@ -2,19 +2,22 @@ title: My Awesome Site
 description: My personal website powered by Jekyll and the YAT theme
 remote_theme: jeffreytse/jekyll-theme-yat
 
+# Load custom stylesheet
+custom_css: /assets/css/custom.scss
+
 plugins:
   - jekyll-remote-theme
 
 # Optional: social links
 social:
-  name: Your Name
+  name: Juan Echenique
   links:
     - https://github.com/yourusername
     - https://linkedin.com/in/yourusername
 
 # Optional: navbar links
 nav:
-  - title: Home
+  - title: Research
     url: /
   - title: About
     url: /about/
